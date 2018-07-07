@@ -60,12 +60,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication1\WebApplication1.csproj">
+    <ProjectReference Include="..\WebApplication1\gestion.csproj">
       <Project>{73548ABD-1200-4A07-BAA0-103E0DD693D3}</Project>
-      <Name>WebApplication1</Name>
+      <Name>gestion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
